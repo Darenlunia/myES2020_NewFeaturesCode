@@ -1,18 +1,21 @@
 {
-  "name": "koa2-es10",
-  "version": "1.0.0",
-  "description": "koa2-es development kit",
+  "name": "es10_practic",
+  "version": "2.0.0",
+  "description": "using cucygh's es10 development kit -- koa2-es",
   "main": "index.js",
   "scripts": {
     "babel": "babel-node app.js",
     "start": "nodemon --exec npm run babel",
     "webpack": "webpack -w"
   },
-  "repository": "git@github.com:cucygh/es-cli.git",
+  "repository":  { 
+    "type" : "git", 
+    "url" : "https://github.com/Darenlunia/es10_practice"
+    },
   "keywords": [
-    "cuc_ygh"
+    "es10practice"
   ],
-  "author": "cuc_ygh",
+  "author": "wang",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.18.0",
