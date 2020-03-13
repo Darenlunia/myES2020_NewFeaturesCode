@@ -26,8 +26,7 @@ let object=[1,2,3]
 object.a="aaa";
 for (const key in object) {
     if (object.hasOwnProperty(key)) {
-        const element = object[key];
-        
+        const element = object[key]; 
     }
 }//输入for的时候会自动出现遍历结构补全，选择forin补全，就会自动生成这个结构。
 //由于数组也是对象，所以也可以用这种方法遍历，但是也会把数组的其他属性也遍历出来。在数组的[]元素中，key是index，value是对应的元素值，但是要注意这里的key是字符串，不是数值，使用key*1，可以转化为数值。
