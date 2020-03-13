@@ -7,8 +7,8 @@ let imgs=[].slice.call(document.querySelectorAll('img'))//Nodelist
 //[].slice.all() == Array.prototype.slice.all 即 []=Array.prototype，因为[]创建的时候就会去找数组的原型链
 //es6的做法
 //使用数组对象的新增默认属性：Array.prototype.from
-let args=Array.from(arguments)
-let imgs=Array.from(document.querySelectorAll('img'))
+let args2=Array.from(arguments)
+let imgs2=Array.from(document.querySelectorAll('img'))
 
 
 //第二：对固定长度数组每个元素初始化为相同数字
@@ -22,7 +22,7 @@ for(let i=0;i<array.length;i++){
 }//这样确实可以给array内部元素完全初始化为1，但是比较麻烦。
 //es6 from
 //下面这一句可以完成数组初始化为1：
-let array=Array.from({length:5},function(){return 1})
+let array2=Array.from({length:5},function(){return 1})
 //这里面的{length:5}也是伪数组
 //那么什么是伪数组呢？
 // 1 对象是按照索引存储数据的
