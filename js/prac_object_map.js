@@ -21,5 +21,4 @@ a.delete (1)
 a.clear()
 var len = a.size
 
-//性能
  
