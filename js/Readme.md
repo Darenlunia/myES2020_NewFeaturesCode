@@ -16,6 +16,7 @@ es5中关于数组的知识还有很多，自己再去练习。
 ### Object的更新
 主要讲了对象属性的缩写、set和map新数据结构、对象的深拷贝浅拷贝。
 WeakSet和WeakMap，和set、map相似，只是加了限定条件，只能接收对象。
+区分静态方法和实例方法，实例方法用实例对象去调用，不能直接用Class.function调用。
 
 ### 正则 regexp
 正则表达式后面加u修饰符可以解决很多问题，这里举例不全，可以去参考阮一峰es6入门那本书；
@@ -26,9 +27,14 @@ WeakSet和WeakMap，和set、map相似，只是加了限定条件，只能接收
 使用 函数名+模板字符串（Tag函数形式）可以创建具有逻辑关系处理的字符串模板。
 
 ### Promise
-promise+then
+关于异步操作，要记得用Promise对象去解决。 
+then、catch都是Promise的实例方法。
+resolve、reject，还有all(全到才得)、race(先到先得)都是Promise的静态方法。
+
+### Reflect
+反射机制
 
 ### Resolve/Reject
 
 ### 其他
-这里关于let/const、Array/Object Destructure（解构赋值）后续再做更新。（分别位于阮一峰《ES6标准入门》的第一章和第二张）
+这里关于let/const、Array/Object Destructure（解构赋值）、正则、字符串模板后续再做更新。（前面两组分别位于阮一峰《ES6标准入门》的第一章和第二章）
