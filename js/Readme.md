@@ -35,6 +35,16 @@ resolve、reject，还有all(全到才得)、race(先到先得)都是Promise的�
 反射机制，很多为取代Object中原有方法而设计，令类和对象都作为Reflect中静态方法的参数，使得对类和对象的处理更加灵活。
 静态方法：apply、construct、以及替代原有Object方法的对应方法（包括读写原型方法、读写属性等等）；注:Object中的一些方法正在逐渐向Reflect迁移，且后续Object可能会移除这些旧方法。所以尽量学习使用Reflect的方法代替原有方法。
 
+### Proxy
+讲了基础语法new Proxy(target,{set/get})、几种应用场景中的灵活使用、撤销代理（Proxy.revokable,临时代理）。
+
+
+### Generator和Iterator
+较长的1.5小时
+
+### Export Import和module
+大约半小时，希望明天中午午休的时候能把上面所有该看的都看完。最好再复习一遍。
+
 ### 其他
 这里关于let/const、Array/Object Destructure（解构赋值）、正则、字符串模板后续再做更新。（前面两组分别位于阮一峰《ES6标准入门》的第一章和第二章）
-symbol
+symbol用的不太多，后续有空自己系统练习了再补
