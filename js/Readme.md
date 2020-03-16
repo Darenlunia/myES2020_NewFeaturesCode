@@ -38,9 +38,10 @@ resolve、reject，还有all(全到才得)、race(先到先得)都是Promise的�
 ### Proxy
 讲了基础语法new Proxy(target,{set/get})、几种应用场景中的灵活使用、撤销代理（Proxy.revokable,临时代理）。
 
+### Generator
+讲了Generator的基础语法（function *）、yield的用法和返回值、yield后应该紧跟遍历值、next的用法和返回值、yield+*可以进行嵌套遍历、使用return或捕获异常可以实现循环的终止或跳过、两个应用练习，实现对Generator的灵活使用。
 
-### Generator和Iterator
-较长的1.5小时
+### Iterator
 
 ### Export Import和module
 大约半小时，希望明天中午午休的时候能把上面所有该看的都看完。最好再复习一遍。
