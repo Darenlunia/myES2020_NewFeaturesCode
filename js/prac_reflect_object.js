@@ -33,7 +33,7 @@ Reflect.isExtensible(obj)
 Object.freeze(obj)//等价于下面这句
 Reflect.preventExtensions(obj)
 Reflect.isExtensible(obj)//判断是否可扩展
-//列出其自由属性（区分原型链属性）
+//列出其全部自由属性（区分原型链属性）
 Reflect.ownKeys(obj)
 Reflect.ownKeys([1,2])
 //symbol 不太常用的一个数据类型，和ownKeys有关。
