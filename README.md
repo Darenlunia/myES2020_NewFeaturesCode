@@ -2,6 +2,7 @@
 es6-es10特性练习，以及一些算法题练习，每日更新，每日进步一点点。
 
 初始代码双引号用的比较多，js中最好是用单引号，后来的代码练习有所改进。
+## ES6代码练习总结
 ### Array练习总结
 主要从数组的遍历、转换、生成、查找四个方面进行了语法对比练习。
 重点了解forin forof from of fill find filter
@@ -39,8 +40,14 @@ resolve、reject，还有all(全到才得)、race(先到先得)都是Promise的�
 静态方法：apply、construct、以及替代原有Object方法的对应方法（包括读写原型方法、读写属性等等）；注:Object中的一些方法正在逐渐向Reflect迁移，且后续Object可能会移除这些旧方法。所以尽量学习使用Reflect的方法代替原有方法。
 
 ### Proxy
-讲了基础语法new Proxy(target,{set/get})、几种应用场景中的灵活使用、撤销代理。
+讲了基础语法new Proxy(target,{set/get})、几种应用场景中的灵活使用、撤销代理（Proxy.revokable,临时代理）。
 
-### 其他
-这里关于let/const、Array/Object Destructure（解构赋值）、正则、字符串模板后续再做更新。（前面两组分别位于阮一峰《ES6标准入门》的第一章和第二章）
-symbol
+### Generator
+讲了Generator的基础语法（function *）、yield的用法和返回值、yield后应该紧跟遍历值、next的用法和返回值、yield+*可以进行嵌套遍历、使用return或捕获异常可以实现循环的终止或跳过、两个应用练习，实现对Generator的灵活使用。
+
+### Iterator
+Iterator的终极目标就是将一个对象能搞成可for-of遍历的对象就可以了（也就是给一个复杂的数据结构自定义一个遍历）；
+本身可遍历的有数组、伪数组（集合）；
+Iterator的写法遵循可迭代协议和迭代器协议；
+Gnerator也遵循迭代器协议，所以可以用G的next替代Iterator中的一部分写法；
+也就是说对象的Iterator接口有两种写法，一种是demo中的原始框架写法，一种是generator的写法，根据自己写的喜好选择即可

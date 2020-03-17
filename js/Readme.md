@@ -1,4 +1,5 @@
-我一开始写的代码不太规范，都是用的双引号，js中最好是用单引号。
+# 练习大纲和总结
+## ES6代码练习总结
 ### Array练习总结
 主要从数组的遍历、转换、生成、查找四个方面进行了语法对比练习。
 重点了解forin forof from of fill find filter
@@ -42,6 +43,11 @@ resolve、reject，还有all(全到才得)、race(先到先得)都是Promise的�
 讲了Generator的基础语法（function *）、yield的用法和返回值、yield后应该紧跟遍历值、next的用法和返回值、yield+*可以进行嵌套遍历、使用return或捕获异常可以实现循环的终止或跳过、两个应用练习，实现对Generator的灵活使用。
 
 ### Iterator
+Iterator的终极目标就是将一个对象能搞成可for-of遍历的对象就可以了（也就是给一个复杂的数据结构自定义一个遍历）；
+本身可遍历的有数组、伪数组（集合）；
+Iterator的写法遵循可迭代协议和迭代器协议；
+Gnerator也遵循迭代器协议，所以可以用G的next替代Iterator中的一部分写法；
+也就是说对象的Iterator接口有两种写法，一种是demo中的原始框架写法，一种是generator的写法，根据自己写的喜好选择即可
 
 ### Export Import和module
 大约半小时，希望明天中午午休的时候能把上面所有该看的都看完。最好再复习一遍。
