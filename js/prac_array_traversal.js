@@ -43,9 +43,13 @@ const Price={
     B:[4,5,6],
     C:[7,8,9],
 }
-//forin是固定的遍历效果，是固定的遍历机制
+//forin是固定的遍历效果，是固定的遍历机制，并且只能遍历一层
 for(let key in Price){
     console.log(key,Price[key])
+}
+//也可以将Price进行转化使其可遍历：
+for (const [k,v] of Object.entries(Price)) {
+    console.log(k,v)
 }
 //forof可以自定义遍历效果，例如遍历出ABC的最小值组成的结果。
 for(let key of Price){

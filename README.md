@@ -51,3 +51,13 @@ Iterator的终极目标就是将一个对象能搞成可for-of遍历的对象就
 Iterator的写法遵循可迭代协议和迭代器协议；
 Gnerator也遵循迭代器协议，所以可以用G的next替代Iterator中的一部分写法；
 也就是说对象的Iterator接口有两种写法，一种是demo中的原始框架写法，一种是generator的写法，根据自己写的喜好选择即可
+
+### Export Import和module
+这里就是练习变量、对象、函数、类的导入导出（import from/export [default] ）
+以及导入到时候名称改写
+以及每个导出文件中可以有多个到处接口，但默认导出只能有一个
+以及可以用* as Mod去代替所有导出模块
+
+### 其他
+这里关于let/const、正则、字符串模板后续再做更新。
+symbol用的不太多，后续有空自己系统练习了再补。

@@ -1,1 +1,1 @@
-import './prac_promise'
+import './prac_export_im_mod'
