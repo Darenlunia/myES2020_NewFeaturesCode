@@ -2,7 +2,7 @@
 es6-es10特性练习，以及一些算法题练习，每日更新，每日进步一点点。
 
 初始代码双引号用的比较多，js中最好是用单引号，后来的代码练习有所改进。
-## ES6代码练习总结
+## 1. ES6代码练习总结
 ### (1) Array练习总结
 主要从数组的遍历、转换、生成、查找四个方面进行了语法对比练习。  
 重点了解forin forof from of fill find filter  
@@ -63,13 +63,13 @@ Gnerator也遵循迭代器协议，所以可以用G的next替代Iterator中的�
 symbol用的不太多，后续有空自己系统练习了再补。  
 
 ## 2. ES7代码练习总结
-(1) 用includes(元素)判断元素是否存在  
-(2) **代表乘方  
+### (1) 用includes(元素)判断元素是否存在  
+### (2) **代表乘方  
 
 ## 3. ES8代码练习总结
-(1) 异步Promise的语法糖：async和await  
-(2) 对象遍历方法Object.keys().forEach()  
-(3) 字符串补齐接口：padStart padEnd  
+### (1) 异步Promise的语法糖：async和await  
+### (2) 对象遍历方法Object.keys().forEach()  
+### (3) 字符串补齐接口：padStart padEnd  
 
 ## 4. ES9代码练习总结  
 ### (1) for await of 解决的问题：  
@@ -82,12 +82,12 @@ symbol用的不太多，后续有空自己系统练习了再补。
 ### (3) Object新增Rest Spread   
 即使用...rest将对象元素打散，从而实现批量对象合并和批量属性获取。   
 ### (4) RegExp 正则知识点  
-#### <1>. dotAll   
+#### a. dotAll   
 新增修饰符/s配合{.}使用，此时{.}可以匹配包括/n在内的所有字符  
-#### <2>. named captured groups(命名分组捕获)   
+#### b. named captured groups(命名分组捕获)   
 match()匹配可以实现分组捕获，通过数字下标查找捕获子串    
 命名分组捕获，可以使用?<>给匹配子串其别名，通过groups.别名 调用  
-#### <3>. lookbehind assert
+#### c. lookbehind assert
 先行断言(?=)    
 后行断言(?>=)    
 
