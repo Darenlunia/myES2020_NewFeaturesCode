@@ -37,3 +37,5 @@ for(let v of authors){
 }
 console.log(r)
 //使用迭代器可以忽略数据的内部结构直接去遍历这个数据外层，从而解耦数据和业务逻辑
+
+//如果这个对象迭代器中含有异步内容，需要用for await of去遍历,demo见es9的Symbol.asyncIterator
