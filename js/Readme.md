@@ -12,6 +12,7 @@ es5中关于数组的知识还有很多，自己再去练习。
 
 ### (3) 函数
 主要从函数的参数默认值、不确定参数、箭头函数三个方面进行了语法对比练习。  
+这里提到了Rest参数的用法。
 要注意箭头函数中的this指向。  
 
 ### (4) Object的更新
@@ -60,13 +61,13 @@ Gnerator也遵循迭代器协议，所以可以用G的next替代Iterator中的�
 symbol用的不太多，后续有空自己系统练习了再补。  
 
 ## 2. ES7代码练习总结
-### (1) 用includes(元素)判断元素是否存在  
-### (2) **代表乘方  
+#### (1) 用includes(元素)判断元素是否存在  
+#### (2) **代表乘方  
 
 ## 3. ES8代码练习总结
-### (1) 异步Promise的语法糖：async和await  
-### (2) 对象遍历方法Object.keys().forEach()  
-### (3) 字符串补齐接口：padStart padEnd  
+#### (1) 异步Promise的语法糖：async和await  
+#### (2) 对象遍历方法Object.keys().forEach()  
+#### (3) 字符串补齐接口：padStart padEnd  
 
 ## 4. ES9代码练习总结  
 ### (1) for await of 解决的问题：  
@@ -91,5 +92,5 @@ match()匹配可以实现分组捕获，通过数字下标查找捕获子串
 ## 5. ES10代码练习总结    
 主要包括Json、字符串Array、Object、Function、
 try.catch、BigInt方面的更新 
-这里要注意字符串中对正则方法的更新（matchAll），还要注意“捕获”和“完全匹配的差别”    
+这里要注意字符串中对正则方法(matchAll)的更新，还要注意“捕获”和“完全匹配的差别”    
 另外还要注意Object.fromEntries()和Object.entries()可以完成数组和对象之间的转换，从而实现交叉使用对方的API来解决问题    

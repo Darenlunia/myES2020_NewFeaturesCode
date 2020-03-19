@@ -68,7 +68,7 @@ console.log(select2(/"([^"]*)"/g,str1)) //[ 'foo', 'bar', 'baz' ]
 
 
 //Object新增API
-//Object.fromEntries():数组的Object遍历，数组转化成Oobject
+//Object.fromEntries():数组的Object遍历，数组转化成Object
 //这个方法对应于Object.entries(obj):对象转可遍历数组
 //注意：Object.fromEntries()和Object.entries(obj)，所操作的对象和数组，形式是一模一样的，可以说这两个方法是完全逆向的两个方法
 //通过这两个API，就可以让分别属于数组和对象的方法交叉使用了。
