@@ -11,6 +11,8 @@ for(let i=0;i<arr.length;i++){
 arr.forEach(function (item) {
     console.log(item)
 })//不支持break和continue
+//forEach方法中的function回调有三个参数：第一个参数是遍历的数组内容，第二个参数是对应的数组索引，第三个参数是数组本身。
+//[].forEach(function(value,index,array){code something}); 注意是先value后index
 
 //every
 arr.every(function (item) {
@@ -51,8 +53,11 @@ for(let key in Price){
 for (const [k,v] of Object.entries(Price)) {
     console.log(k,v)
 }
+
 //forof可以自定义遍历效果，例如遍历出ABC的最小值组成的结果。
 for(let key of Price){
     console.log(key,Price[key])
 }
 
+//其他关于数组的静态方法：
+//https://www.cnblogs.com/zhaixr/p/6848172.html

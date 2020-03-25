@@ -9,7 +9,7 @@ let cat=new Animal('cat')
 Animal.prototype.eat=function(){
     console.log("i like eat food")
 }//只要挂在原型链上就可以共享函数了，这是原型链构造函数法。
-// 如何通过一个实例去修改函数呢？
+// 如何通过一个实例去修改这个原型链上的函数呢？
 cat.constructor.prototype.eat=function(){
     console.log("i like eat meat")
 }//这时在cat中修改的方法将会直接影响到Animal的方法，也会影响到继承实例的dog的eat方法。

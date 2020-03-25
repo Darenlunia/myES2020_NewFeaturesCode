@@ -21,7 +21,7 @@ Dog1.prototype=Animal1.prototype
 //es6实现继承
 class Animal2{
     constructor(type){
-        this.type=this.type
+        this.type=type
     }
     eat(){
         console.log('i can eat')
